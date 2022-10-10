@@ -1,0 +1,60 @@
+{% include "header.html" %}
+
+<div id="main">
+						<div class="inner">
+							<header>
+								<h1>My Students</h1>
+								<p> </p>
+							</header>
+							<section class="tiles">
+
+								<article class="style1">
+									<span class="image">
+
+										<img  width="200" height="300" src="static/images/aditi.webp" alt="" />
+
+									</span>
+
+										<a href="{{ url_for('aditi') }}">
+										<h2>Aditi Singh</h2>
+										<div class="content">
+											</div>
+									</a>
+								</article>
+
+								<article class="style1">
+									<span class="image">
+
+										<img  width="200" height="300" src="static/images/kumar.jpg" alt="" />
+
+									</span>
+
+										<a href="{{ url_for('kumar') }}">
+										<h2>Kumar B</h2>
+										<div class="content">
+											</div>
+									</a>
+								</article>
+
+								<article class="style1">
+									<span class="image">
+
+										<img  width="200" height="300" src="static/images/ajay.webp" alt="" />
+
+									</span>
+
+										<a href="{{ url_for('ajay') }}">
+										<h2>Ajay Sharma</h2>
+										<div class="content">
+											</div>
+									</a>
+								</article>
+
+							</section>
+
+
+						</div>
+					</div>
+
+
+{% include "footer.html" %}

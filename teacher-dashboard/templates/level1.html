@@ -1,0 +1,39 @@
+{% include "header.html" %}
+<div id="main">
+    <div class="inner">
+        <h1>Level 1 Catalogue</h1>
+          <section class="tiles">
+
+            <article class="style1">
+                <span class="image">
+                    <img  width="200" height="300" src="static/images/fk.jpg" alt="" />
+                </span>
+                <a href="{{ url_for('knap') }}">
+                    <h2>Fractional Knapsack</h2>
+                    <div class="content">
+                        </div>
+                </a>
+
+            </article>
+
+              <article class="style1">
+                <span class="image">
+                    <img  width="200" height="300" src="static/images/dj.jpg" alt="" />
+                </span>
+                <a href="{{ url_for('dij') }}">
+                    <h2>Djkistras Algorithm</h2>
+                    <div class="content">
+                        </div>
+                </a>
+
+            </article>
+
+          </section>
+        </div>
+
+
+    </div>
+</div>
+
+
+{% include "footer.html" %}
